@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {createStoreAction = id; }; 
+            CLASS = GeneratorAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {storeContents = NSTextView; storePath = NSTextField; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

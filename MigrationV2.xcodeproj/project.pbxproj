@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 43;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E9DF26E60A78235200F899CE /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9DF26F80A78238500F899CE /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E9DF26E80A78235B00F899CE /* PBXTargetDependency */,
+				E9DF26EA0A78235F00F899CE /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		517B8EEC0A728506005C7EA3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
+		E92D527B0A6EDD37004B6100 /* MigrationFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D513C0A6DBC4C004B6100 /* MigrationFunctions.m */; };
+		E92D527C0A6EDD38004B6100 /* CuisineMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D52470A6EDC04004B6100 /* CuisineMigrationPolicy.m */; };
+		E9338E490A79A6390006D094 /* MappingModel.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = E9338E480A79A6390006D094 /* MappingModel.xcmappingmodel */; };
+		E9D872530A703C2F001E29D7 /* DataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D8724F0A703C2F001E29D7 /* DataGenerator.m */; };
+		E9D872540A703C2F001E29D7 /* GeneratorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D872510A703C2F001E29D7 /* GeneratorAppDelegate.m */; };
+		E9D8727D0A704B06001E29D7 /* MigratorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D8727C0A704B06001E29D7 /* MigratorAppDelegate.m */; };
+		E9D872930A704B7C001E29D7 /* MigrationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D872920A704B7C001E29D7 /* MigrationUtilities.m */; };
+		E9D872940A704B7C001E29D7 /* MigrationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D872920A704B7C001E29D7 /* MigrationUtilities.m */; };
+		E9D872DB0A704FEE001E29D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D872D70A704FEE001E29D7 /* InfoPlist.strings */; };
+		E9D872DC0A704FEE001E29D7 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = E9D872D90A704FEE001E29D7 /* MainMenu.nib */; };
+		E9D872E40A705039001E29D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D872DE0A70501E001E29D7 /* InfoPlist.strings */; };
+		E9D872E50A70503A001E29D7 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = E9D872E00A70501E001E29D7 /* MainMenu.nib */; };
+		E9D873080A7064CA001E29D7 /* RecipesStoreMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D873070A7064CA001E29D7 /* RecipesStoreMigrationPolicy.m */; };
+		E9D873280A706A0C001E29D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E9D873AC0A70785B001E29D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E9D874020A707E79001E29D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C82804067257F0000B614F /* CoreData.framework */; };
+		E9DF26BB0A781F6300F899CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		E9DF26BC0A781F6700F899CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		E9DF26C20A78200300F899CE /* Migration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9DF26C10A78200300F899CE /* Migration.xcdatamodeld */; };
+		E9DF26C30A78200300F899CE /* Migration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9DF26C10A78200300F899CE /* Migration.xcdatamodeld */; };
+		E9DF26C50A78205700F899CE /* Migration_Old.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E9DF26BE0A781FF800F899CE /* Migration_Old.xcdatamodel */; };
+		E9DF26C60A78205B00F899CE /* Migration_New.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E9DF26C40A78200300F899CE /* Migration_New.xcdatamodel */; };
+		E9DF26C70A78205C00F899CE /* Migration_Old.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E9DF26BE0A781FF800F899CE /* Migration_Old.xcdatamodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DF26E70A78235B00F899CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92D52650A6EDD0B004B6100;
+			remoteInfo = Generator;
+		};
+		E9DF26E90A78235F00F899CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92D526F0A6EDD1E004B6100;
+			remoteInfo = Migrator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* MigrationV2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MigrationV2_Prefix.pch; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		E9215CA80A7AABFE000E8B6A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		E92D513B0A6DBC4C004B6100 /* MigrationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MigrationFunctions.h; sourceTree = "<group>"; };
+		E92D513C0A6DBC4C004B6100 /* MigrationFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MigrationFunctions.m; sourceTree = "<group>"; };
+		E92D52460A6EDC04004B6100 /* CuisineMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuisineMigrationPolicy.h; sourceTree = "<group>"; };
+		E92D52470A6EDC04004B6100 /* CuisineMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CuisineMigrationPolicy.m; sourceTree = "<group>"; };
+		E92D52660A6EDD0B004B6100 /* Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Generator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92D52680A6EDD0B004B6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		E92D52700A6EDD1E004B6100 /* Migrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Migrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92D52720A6EDD1E004B6100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		E9338E480A79A6390006D094 /* MappingModel.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = MappingModel.xcmappingmodel; sourceTree = "<group>"; };
+		E9D8724E0A703C2F001E29D7 /* DataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DataGenerator.h; sourceTree = "<group>"; };
+		E9D8724F0A703C2F001E29D7 /* DataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DataGenerator.m; sourceTree = "<group>"; };
+		E9D872500A703C2F001E29D7 /* GeneratorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GeneratorAppDelegate.h; sourceTree = "<group>"; };
+		E9D872510A703C2F001E29D7 /* GeneratorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GeneratorAppDelegate.m; sourceTree = "<group>"; };
+		E9D8727B0A704B06001E29D7 /* MigratorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MigratorAppDelegate.h; path = Migrator/MigratorAppDelegate.h; sourceTree = "<group>"; };
+		E9D8727C0A704B06001E29D7 /* MigratorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MigratorAppDelegate.m; path = Migrator/MigratorAppDelegate.m; sourceTree = "<group>"; };
+		E9D872910A704B7C001E29D7 /* MigrationUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MigrationUtilities.h; sourceTree = "<group>"; };
+		E9D872920A704B7C001E29D7 /* MigrationUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MigrationUtilities.m; sourceTree = "<group>"; };
+		E9D872D80A704FEE001E29D7 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E9D872DA0A704FEE001E29D7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+		E9D872DF0A70501E001E29D7 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E9D872E10A70501E001E29D7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+		E9D873060A7064CA001E29D7 /* RecipesStoreMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesStoreMigrationPolicy.h; sourceTree = "<group>"; };
+		E9D873070A7064CA001E29D7 /* RecipesStoreMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesStoreMigrationPolicy.m; sourceTree = "<group>"; };
+		E9DF26BE0A781FF800F899CE /* Migration_Old.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Migration_Old.xcdatamodel; sourceTree = "<group>"; };
+		E9DF26C40A78200300F899CE /* Migration_New.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Migration_New.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92D52640A6EDD0B004B6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D873280A706A0C001E29D7 /* Cocoa.framework in Frameworks */,
+				517B8EEC0A728506005C7EA3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92D526E0A6EDD1E004B6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D873AC0A70785B001E29D7 /* Cocoa.framework in Frameworks */,
+				E9D874020A707E79001E29D7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* MigrationClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E92D513B0A6DBC4C004B6100 /* MigrationFunctions.h */,
+				E92D513C0A6DBC4C004B6100 /* MigrationFunctions.m */,
+				E92D52460A6EDC04004B6100 /* CuisineMigrationPolicy.h */,
+				E92D52470A6EDC04004B6100 /* CuisineMigrationPolicy.m */,
+				E9D873060A7064CA001E29D7 /* RecipesStoreMigrationPolicy.h */,
+				E9D873070A7064CA001E29D7 /* RecipesStoreMigrationPolicy.m */,
+			);
+			path = MigrationClasses;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92D52660A6EDD0B004B6100 /* Generator.app */,
+				E92D52700A6EDD1E004B6100 /* Migrator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MigrationV2 */ = {
+			isa = PBXGroup;
+			children = (
+				E9215CA80A7AABFE000E8B6A /* README.txt */,
+				7756732906782D8800D1FEB8 /* Models */,
+				E9D8728C0A704B37001E29D7 /* Shared */,
+				E92D52600A6EDCC3004B6100 /* Generator */,
+				E92D52610A6EDCD2004B6100 /* Migrator */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MigrationV2;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MigrationV2_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF26C10A78200300F899CE /* Migration.xcdatamodeld */,
+				E9338E480A79A6390006D094 /* MappingModel.xcmappingmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E92D52600A6EDCC3004B6100 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				E9D8724E0A703C2F001E29D7 /* DataGenerator.h */,
+				E9D8724F0A703C2F001E29D7 /* DataGenerator.m */,
+				E9D872500A703C2F001E29D7 /* GeneratorAppDelegate.h */,
+				E9D872510A703C2F001E29D7 /* GeneratorAppDelegate.m */,
+				E9D872D40A704F4A001E29D7 /* resources */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		E92D52610A6EDCD2004B6100 /* Migrator */ = {
+			isa = PBXGroup;
+			children = (
+				E9D8727B0A704B06001E29D7 /* MigratorAppDelegate.h */,
+				E9D8727C0A704B06001E29D7 /* MigratorAppDelegate.m */,
+				080E96DDFE201D6D7F000001 /* MigrationClasses */,
+				E9D872D50A704F50001E29D7 /* resources */,
+			);
+			name = Migrator;
+			sourceTree = "<group>";
+		};
+		E9D8728C0A704B37001E29D7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9D872910A704B7C001E29D7 /* MigrationUtilities.h */,
+				E9D872920A704B7C001E29D7 /* MigrationUtilities.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E9D872D40A704F4A001E29D7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D872D60A704FEE001E29D7 /* English.lproj */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		E9D872D50A704F50001E29D7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D872DD0A70501E001E29D7 /* English.lproj */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		E9D872D60A704FEE001E29D7 /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E92D52680A6EDD0B004B6100 /* Info.plist */,
+				E9D872D70A704FEE001E29D7 /* InfoPlist.strings */,
+				E9D872D90A704FEE001E29D7 /* MainMenu.nib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		E9D872DD0A70501E001E29D7 /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E92D52720A6EDD1E004B6100 /* Info.plist */,
+				E9D872DE0A70501E001E29D7 /* InfoPlist.strings */,
+				E9D872E00A70501E001E29D7 /* MainMenu.nib */,
+			);
+			name = English.lproj;
+			path = Migrator/English.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92D52650A6EDD0B004B6100 /* Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92D52690A6EDD0C004B6100 /* Build configuration list for PBXNativeTarget "Generator" */;
+			buildPhases = (
+				E92D52620A6EDD0B004B6100 /* Resources */,
+				E92D52630A6EDD0B004B6100 /* Sources */,
+				E92D52640A6EDD0B004B6100 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Generator;
+			productName = Generator;
+			productReference = E92D52660A6EDD0B004B6100 /* Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E92D526F0A6EDD1E004B6100 /* Migrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92D52730A6EDD1F004B6100 /* Build configuration list for PBXNativeTarget "Migrator" */;
+			buildPhases = (
+				E92D526C0A6EDD1E004B6100 /* Resources */,
+				E92D526D0A6EDD1E004B6100 /* Sources */,
+				E92D526E0A6EDD1E004B6100 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Migrator;
+			productName = Migrator;
+			productReference = E92D52700A6EDD1E004B6100 /* Migrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "MigrationV2" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MigrationV2 */;
+			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
+			targets = (
+				E9DF26E60A78235200F899CE /* Build All */,
+				E92D52650A6EDD0B004B6100 /* Generator */,
+				E92D526F0A6EDD1E004B6100 /* Migrator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92D52620A6EDD0B004B6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D872DB0A704FEE001E29D7 /* InfoPlist.strings in Resources */,
+				E9D872DC0A704FEE001E29D7 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92D526C0A6EDD1E004B6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D872E40A705039001E29D7 /* InfoPlist.strings in Resources */,
+				E9D872E50A70503A001E29D7 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92D52630A6EDD0B004B6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D872530A703C2F001E29D7 /* DataGenerator.m in Sources */,
+				E9D872540A703C2F001E29D7 /* GeneratorAppDelegate.m in Sources */,
+				E9D872940A704B7C001E29D7 /* MigrationUtilities.m in Sources */,
+				E9DF26BB0A781F6300F899CE /* main.m in Sources */,
+				E9DF26C20A78200300F899CE /* Migration.xcdatamodeld in Sources */,
+				E9DF26C50A78205700F899CE /* Migration_Old.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92D526D0A6EDD1E004B6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92D527B0A6EDD37004B6100 /* MigrationFunctions.m in Sources */,
+				E92D527C0A6EDD38004B6100 /* CuisineMigrationPolicy.m in Sources */,
+				E9D8727D0A704B06001E29D7 /* MigratorAppDelegate.m in Sources */,
+				E9D872930A704B7C001E29D7 /* MigrationUtilities.m in Sources */,
+				E9D873080A7064CA001E29D7 /* RecipesStoreMigrationPolicy.m in Sources */,
+				E9DF26BC0A781F6700F899CE /* main.m in Sources */,
+				E9DF26C30A78200300F899CE /* Migration.xcdatamodeld in Sources */,
+				E9DF26C60A78205B00F899CE /* Migration_New.xcdatamodel in Sources */,
+				E9DF26C70A78205C00F899CE /* Migration_Old.xcdatamodel in Sources */,
+				E9338E490A79A6390006D094 /* MappingModel.xcmappingmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DF26E80A78235B00F899CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92D52650A6EDD0B004B6100 /* Generator */;
+			targetProxy = E9DF26E70A78235B00F899CE /* PBXContainerItemProxy */;
+		};
+		E9DF26EA0A78235F00F899CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92D526F0A6EDD1E004B6100 /* Migrator */;
+			targetProxy = E9DF26E90A78235F00F899CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D872D70A704FEE001E29D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D872D80A704FEE001E29D7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9D872D90A704FEE001E29D7 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D872DA0A704FEE001E29D7 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		E9D872DE0A70501E001E29D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D872DF0A70501E001E29D7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9D872E00A70501E001E29D7 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D872E10A70501E001E29D7 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				VALID_ARCHS = "ppc7400 ppc64 ppc970 x86_64 ppc i386";
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				VALID_ARCHS = "ppc7400 ppc64 ppc970 x86_64 ppc i386";
+			};
+			name = Release;
+		};
+		E92D526A0A6EDD0C004B6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Generator/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Generator;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		E92D526B0A6EDD0C004B6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Generator/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Generator;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E92D52740A6EDD1F004B6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Migrator/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Migrator;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		E92D52750A6EDD1F004B6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Migrator/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Migrator;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		E9DF26F90A78238500F899CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build All";
+			};
+			name = Debug;
+		};
+		E9DF26FA0A78238500F899CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "MigrationV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92D52690A6EDD0C004B6100 /* Build configuration list for PBXNativeTarget "Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92D526A0A6EDD0C004B6100 /* Debug */,
+				E92D526B0A6EDD0C004B6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92D52730A6EDD1F004B6100 /* Build configuration list for PBXNativeTarget "Migrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92D52740A6EDD1F004B6100 /* Debug */,
+				E92D52750A6EDD1F004B6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DF26F80A78238500F899CE /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DF26F90A78238500F899CE /* Debug */,
+				E9DF26FA0A78238500F899CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9DF26C10A78200300F899CE /* Migration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9DF26BE0A781FF800F899CE /* Migration_Old.xcdatamodel */,
+				E9DF26C40A78200300F899CE /* Migration_New.xcdatamodel */,
+			);
+			currentVersion = E9DF26BE0A781FF800F899CE /* Migration_Old.xcdatamodel */;
+			path = Migration.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
